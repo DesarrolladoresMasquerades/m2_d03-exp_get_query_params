@@ -1,4 +1,4 @@
-## Mongoose intro
+## GET method - route query string and params
 
 ### Starter
 
