@@ -16,7 +16,10 @@ app.get('/store/clothes/:season/:singleClothing', (req, res, next) => {
   console.log('---------------------------------');
   console.log('The URL params are:', req.params);
   console.log('The value for the param "season" is: ', req.params.season);
-  console.log('The value for the param "singleClothing" is', req.params.clothe);
+  console.log(
+    'The value for the param "singleClothing" is',
+    req.params.singleClothing
+  );
   console.log('---------------------------------');
 
   // send "params" to the details-page.hbs
