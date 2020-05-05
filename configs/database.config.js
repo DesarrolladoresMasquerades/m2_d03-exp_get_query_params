@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 // CONNECT YOUR APP TO THE MONGODB
 mongoose
-  //                                the name of our database
+  //                               the name of our database
   //                                   |
   .connect('mongodb://localhost/get-query-params-dev-example', {
     useCreateIndex: true,
