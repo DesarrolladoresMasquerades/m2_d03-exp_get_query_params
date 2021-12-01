@@ -3,11 +3,7 @@ const mongoose = require('mongoose');
 mongoose
   //                               the name of our database
   //                                   |
-  .connect('mongodb://localhost/get-query-params-dev-example', {
-    useCreateIndex: true,
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
+  .connect('mongodb://localhost/get-query-params-dev-example')
   .then(x =>
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   )
